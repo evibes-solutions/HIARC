@@ -1,24 +1,46 @@
 export const portfolioData = [
   {
     id: 1,
-    category: "Villas & Farmhouses",
+    category: "Category 1",
     projects: [
       {
-        title: "A B Residence",
-        image: "/images/ab_residence.jpg",
-        tag: "Architecture",
+        title: "Title1",
+        image: "/image1.jpg",
+        tag: "tag1",
       },
-      {
-        title: "A A Residence",
-        image: "/images/aa_residence.jpg",
-        tag: "Architecture",
+     {
+        title: "Title2",
+        image: "/image2.jpg",
+        tag: "tag2",
       },
-      {
-        title: "MR A Residence",
-        image: "/images/mra_residence.jpg",
-        tag: "Architecture",
+     {
+        title: "Title3",
+        image: "/image3.jpg",
+        tag: "tag3",
       },
+
     ],
   },
-  // You can add more categories and projects here
+    {
+    id: 2,
+    category: "Category 2",
+    projects: [
+      {
+        title: "Title1",
+        image: "/image1.jpg",
+        tag: "tag1",
+      },
+     {
+        title: "Title2",
+        image: "/image2.jpg",
+        tag: "tag2",
+      },
+     {
+        title: "Title3",
+        image: "/image3.jpg",
+        tag: "tag3",
+      },
+ 
+    ],
+  },
 ];

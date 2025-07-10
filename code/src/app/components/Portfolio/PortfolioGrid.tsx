@@ -1,3 +1,5 @@
+'use client';
+
 import PortfolioCard from "./PortfolioCard";
 
 type Props = {
