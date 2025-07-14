@@ -18,7 +18,9 @@ export default function ContactPage() {
 
   return (
     <div className="w-full min-h-screen bg-[#1A3C36] flex flex-col items-center justify-center">
-      <h2 className="text-4xl font-bold mb-5 text-white">MAKE AN APPOINTMENT!</h2>
+      <h2 className="text-4xl font-bold mb-5 text-center text-white">
+        MAKE AN APPOINTMENT!
+      </h2>
       <form className="w-full max-w-[1100px] mx-auto px-8 py-20 space-y-14">
         <input
           type="text"
