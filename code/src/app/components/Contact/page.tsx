@@ -8,7 +8,7 @@ export default function Contact() {
     >
       <h2 className="text-4xl font-bold mb-10">GET IN TOUCH!</h2>
 
-      {/* <div className="grid md:grid-cols-2 gap-10">
+      <div className="grid md:grid-cols-2 gap-10">
      
         <form className="space-y-6">
           <input
@@ -54,7 +54,7 @@ export default function Contact() {
             ></iframe>
           </div>
         </div>
-      </div> */}
+      </div>
     </section>
   );
 }
