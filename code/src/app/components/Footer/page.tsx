@@ -3,8 +3,8 @@ import { Facebook, Instagram, Youtube } from 'lucide-react';
 
 export default function Footer() {
   return (
-    <footer className="bg-[#122925] text-white px-6 py-12">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+    <footer className="w-screen min-h-screen bg-[#122925] text-gray-300 px-6 py-12 flex flex-col justify-center">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 mt-30 gap-8 flex-1">
         <div>
           <h3 className="text-lg font-semibold mb-4">CONTACT INFORMATION</h3>
           <p className="mb-2">

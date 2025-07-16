@@ -1,24 +1,24 @@
-"use client";
+'use client';
 
-import { useState } from "react";
-import { Menu, X } from "lucide-react";
-import Image from "next/image";
+import { useState } from 'react';
+import { Menu, X } from 'lucide-react';
+import Image from 'next/image';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
-    { label: "HOME", href: "#home" },
-    { label: "SERVICES", href: "#services" },
-    { label: "PORTFOLIO", href: "#portfolio" },
-    { label: "ABOUT", href: "#about" },
-    { label: "CONTACT US", href: "#contactus" },
+    { label: 'HOME', href: '#home' },
+    { label: 'SERVICES', href: '#services' },
+    { label: 'PORTFOLIO', href: '#portfolio' },
+    { label: 'ABOUT', href: '#about' },
+    { label: 'CONTACT US', href: '#contact' },
   ];
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 bg-[#122925] shadow-sm">
+    <nav className="fixed top-0 left-0 w-full z-50 bg-transparent shadow-sm">
       <div className="flex justify-between items-center px-6 py-4">
-        <button onClick={() => setIsOpen(true)} className="z-50 text-white">
+        <button onClick={() => setIsOpen(true)} className="z-50 text-gray-300">
           <Menu size={28} />
         </button>
 

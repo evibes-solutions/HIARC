@@ -5,18 +5,23 @@ export const portfolioData = [
     projects: [
       {
         title: "Title1",
-        image: "/image1.jpg",
+        image: "/slide1.jpg",
         tag: "tag1",
       },
      {
         title: "Title2",
-        image: "/image2.jpg",
+        image: "/slide2.jpg",
         tag: "tag2",
       },
      {
         title: "Title3",
-        image: "/image3.jpg",
+        image: "/slide3.jpg",
         tag: "tag3",
+      },
+        {
+        title: "Title4",
+        image: "/slide4.jpg",
+        tag: "tag4",
       },
 
     ],
@@ -27,18 +32,23 @@ export const portfolioData = [
     projects: [
       {
         title: "Title1",
-        image: "/image1.jpg",
+        image: "/slide5.jpg",
         tag: "tag1",
       },
      {
         title: "Title2",
-        image: "/image2.jpg",
+        image: "/slide6.jpg",
         tag: "tag2",
       },
      {
         title: "Title3",
-        image: "/image3.jpg",
+        image: "/slide7.jpg",
         tag: "tag3",
+      },
+       {
+        title: "Title4",
+        image: "/slide7.jpg",
+        tag: "tag4",
       },
  
     ],
