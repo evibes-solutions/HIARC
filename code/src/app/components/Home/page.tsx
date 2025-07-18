@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <section
       id="home"
-      className="relative h-screen w-full overflow-hidden bg-[#1A3C36]"
+      className="relative w-full overflow-hidden bg-[#1A3C36] h-[50vh] sm:h-[80vh] md:h-screen"
     >
       <div className="absolute inset-0 transition-opacity duration-1000">
         <Image
@@ -37,7 +37,7 @@ export default function Home() {
           alt={`Slide ${currentIndex + 1}`}
           fill
           priority
-          className=" w-full h-full"
+          className="object-cover"
         />
       </div>
 
