@@ -12,6 +12,7 @@ export default function HomePage() {
     <div className="min-h-screen bg-[#1A3C36] text-white">
       <NavBar />
       <DotNavigation />
+
       <section id="home">
         <Home />
       </section>
