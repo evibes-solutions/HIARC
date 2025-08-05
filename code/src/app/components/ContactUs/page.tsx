@@ -147,7 +147,7 @@ export default function ContactUs() {
 
           <div className="flex justify-center mt-4">
             <ReCAPTCHA
-              sitekey="6LfAT5srAAAAAFOika7WNQ0QKYIU87ju0mN6FS0e"
+              sitekey="6LfAT5srAAAAAOtoAqxGCgHAqAwuL_KkSbhKbk50"
               size={
                 typeof window !== 'undefined' && window.innerWidth < 768
                   ? 'compact'
