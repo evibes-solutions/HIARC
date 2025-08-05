@@ -31,7 +31,7 @@ export default function ContactUs() {
       return;
     }
 
-    const formAction = 'https://formsubmit.co/evibessolutions@gmail.com';
+    const formAction = 'https://formsubmit.co/hiarc.d@gmail.com';
 
     const form = document.createElement('form');
     form.method = 'POST';
