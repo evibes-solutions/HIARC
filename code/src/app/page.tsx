@@ -5,6 +5,7 @@ import Services from './components/Services/page';
 import PortfolioPage from './components/Portfolio/page';
 import About from './components/About/page';
 import Contact from './components/Contact/page';
+import ContactUs from './components/ContactUs/page';
 import Footer from './components/Footer/page';
 
 export default function HomePage() {
@@ -12,7 +13,6 @@ export default function HomePage() {
     <div className="min-h-screen bg-[#1A3C36] text-white">
       <NavBar />
       <DotNavigation />
-      {/* <div className='mt-24'></div> */}
       <section id="home">
         <Home />
       </section>
@@ -27,6 +27,9 @@ export default function HomePage() {
       </section>
       <section id="contact">
         <Contact />
+      </section>
+      <section id="contactus">
+        <ContactUs />
       </section>
       <Footer />
     </div>
