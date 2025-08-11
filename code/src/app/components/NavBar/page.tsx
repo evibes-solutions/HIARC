@@ -9,14 +9,14 @@ export default function Navbar() {
 
   const navItems = [
     { label: 'HOME', href: '#home' },
-    { label: 'SERVICES', href: '#services' },
     { label: 'PORTFOLIO', href: '#portfolio' },
+    { label: 'SERVICES', href: '#services' },
     { label: 'ABOUT', href: '#about' },
     { label: 'CONTACT US', href: '#contactus' },
   ];
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 bg-[#122925] shadow-sm">
+    <nav className="fixed transparent top-0 left-0 w-full z-50  shadow-sm">
       <div className="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto">
         <a href="#home" className="flex items-center space-x-2 cursor-pointer">
           <Image
@@ -28,7 +28,7 @@ export default function Navbar() {
           />
         </a>
 
-        <ul className="hidden md:flex space-x-8 text-[#7ED6C1] font-medium tracking-wide">
+        <ul className="hidden md:flex space-x-8 text-[#7ED6C1] font-extrabold tracking-wide">
           {navItems.map((item) => (
             <li key={item.label}>
               <a

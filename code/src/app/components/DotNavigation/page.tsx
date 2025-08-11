@@ -32,13 +32,13 @@ export default function DotNavigation() {
         <a
           key={section}
           href={`#${section}`}
-          className="w-4 h-4 flex items-center justify-center"
+          className="flex items-center justify-center"
         >
           <div
-            className={`rounded-full transition-all duration-300 ${
+            className={`transition-all duration-300 rounded-full ${
               activeSection === section
-                ? 'w-2 h-2 bg-black'
-                : 'w-1 h-1 bg-black/50'
+                ? 'w-2 h-4 bg-[#7ED6C1]'
+                : 'w-2 h-4 bg-[#7ED6C1]/50'
             }`}
           />
         </a>

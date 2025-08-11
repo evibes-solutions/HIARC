@@ -16,12 +16,12 @@ export default function HomePage() {
       <section id="home">
         <Home />
       </section>
-      <section id="services">
-        <Services />
-      </section>
       {/* <section id="portfolio">
         <PortfolioPage />
       </section> */}
+      <section id="services">
+        <Services />
+      </section>
       <section id="about">
         <About />
       </section>
