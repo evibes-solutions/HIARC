@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 
-const sections = ['home', 'services', 'portfolio', 'about', 'contact'];
+const sections = ['home', 'services', 'portfolio', 'about', 'contactus'];
 
 export default function DotNavigation() {
   const [activeSection, setActiveSection] = useState<string>('home');

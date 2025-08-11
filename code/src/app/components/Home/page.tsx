@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import Image from 'next/image';
 
 const images = [
+  '/slide9.jpg',
   '/slide1.jpg',
   '/slide2.jpg',
   '/slide3.jpg',
