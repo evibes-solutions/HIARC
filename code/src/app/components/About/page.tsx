@@ -14,14 +14,14 @@ export default function AboutPage() {
 
   const teamMembers = [
     {
-      name: 'Member 1',
-      designation: 'Role',
+      name: 'AR.Salman Mehmood',
+      designation: 'Founder and Managing Director',
       image: '/team1.jpg',
     },
     {
-      name: 'Member 2',
-      designation: 'Role',
-      image: '/team2.jpg',
+      name: 'AR.Nouman Mehmood',
+      designation: 'Co-Founder and Associate Architect',
+      image: '/team2.png',
     },
   ];
 
@@ -81,7 +81,7 @@ export default function AboutPage() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-3xl font-extrabold mb-6">WHO WE ARE</h2>
-            <p className="text-lg leading-7">info</p>
+            <p className="text-lg leading-7">We provide comprehensive architectural and engineering design solutions for residential, commercial, industrial, and public projects. Our expertise covers feasibility studies, cost estimation, project management, and quality control. Using advanced tools like AutoCAD, 3ds Max, SketchUp, and Revit, we deliver accurate models and renderings. We work closely with clients, contractors, and authorities to ensure designs meet all requirements, and oversee projects from concept to completion with a focus on quality and precision.</p>
           </motion.div>
 
           <div className="flex justify-center gap-4 flex-wrap">

@@ -32,7 +32,7 @@ export default function ServicesPage() {
         className="w-24 h-[2px] bg-[#7ED6C1] mb-12 origin-left"
       />
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 max-w-6xl w-full">
+      <div className="grid grid-cols-2 gap-8 max-w-2xl w-full">
         {services.map((service, index) => (
           <motion.div
             key={index}
@@ -40,7 +40,7 @@ export default function ServicesPage() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
             whileHover={{ scale: 1.05 }}
-            className="bg-[#F5F5F5] text-[#1A3C36] w-full h-[220px] flex flex-col items-center justify-center rounded-sm shadow-sm cursor-pointer transition-all duration-300"
+            className="bg-[#F5F5F5] text-[#1A3C36] w-full h-[220px] flex flex-col items-center justify-center shadow-sm cursor-pointer transition-all duration-300 [clip-path:polygon(25%_0%,75%_0%,100%_50%,75%_100%,25%_100%,0%_50%)]"
           >
             <div className="mb-4">{service.icon}</div>
             <p className="text-base tracking-wide text-center font-light">
